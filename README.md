@@ -1,0 +1,1 @@
+This checks backup files in s3 and validates if file can be untar and if SQL dump has completed successfully. This will create a .csv file for the final report to indicate which services has backup and has surpassed the validation. If there's a service that has no backup or has failed the validation, it will trigger the SNS for email notification.
